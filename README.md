@@ -166,12 +166,11 @@ git clone https://github.com/Haniya-Ramzan/CodeAlpha_FitnessTracker.git
 
 ## 📷 Screenshots
 
-> <h2>📱 Application Screenshots</h2>
+><h2>📱 Application Screenshots</h2>
 
 <p align="center">
 
-<img width="380" height="746" alt="image" src="https://github.com/user-attachments/assets/dd58b019-bb26-4374-b85e-0958f9b610dc" />
-
+<img src="https://github.com/user-attachments/assets/dd58b019-bb26-4374-b85e-0958f9b610dc" width="250" height="550"/>
 <img src="https://github.com/user-attachments/assets/3ac17885-3557-4120-a6b4-7a910afa7b0a" width="250" height="550"/>
 <img src="https://github.com/user-attachments/assets/363f8720-23f7-4531-afb9-ff047f47f399" width="250" height="550"/>
 
@@ -180,18 +179,18 @@ git clone https://github.com/Haniya-Ramzan/CodeAlpha_FitnessTracker.git
 <img src="https://github.com/user-attachments/assets/8498f804-730c-4703-b4c7-9ef21ece67aa" width="250" height="550"/>
 
 <img src="https://github.com/user-attachments/assets/ce334658-16d8-46cc-a45e-a471f2f55cd6" width="250" height="550"/>
-<img src="https://github.com/user-attachments/assets/6f46ab89-d906-4993-96ac-72144335e631" width="250" height="550"/>
-<img src="https://github.com/user-attachments/assets/f8da9804-3996-40ea-b1be-ae1d5017229c" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/1dcef7a3-6afb-44d7-a702-36eae39fa4e3" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/6118bb66-b3a9-480e-b226-4a2059cb25ff" width="250" height="550"/>
 
-<img src="https://github.com/user-attachments/assets/65604d73-0090-43a9-aac1-f66e19fa802b" width="250" height="550"/>
-<img src="https://github.com/user-attachments/assets/c8196ddf-e554-4f39-af21-2a1eeb44b816" width="250" height="550"/>
-<img src="https://github.com/user-attachments/assets/07029bf6-5780-4cc4-a3e9-5f3347fed385" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/ddd1df75-d671-4fe6-9c61-bec6b1af7bf1" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/d52c7d10-6231-4ed5-8e38-8333c8b66989" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/f04b8de6-8b30-414f-85c9-139967e48a59" width="250" height="550"/>
 
-<img src="https://github.com/user-attachments/assets/cc6527b2-9446-4967-b9f5-cc28dc3239ee" width="250" height="550"/>
-<img src="https://github.com/user-attachments/assets/655b8d78-91e9-4643-b7de-c7104e9867af" width="250" height="550"/>
-<img src="https://github.com/user-attachments/assets/2fc98900-7e0f-41f7-801c-7e7363f19571" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/ed298831-d822-4298-96dd-c0ec34d6ff36" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/fc991bec-081a-4cac-8e30-5fc344020d9b" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/9fb0d94e-aafc-488b-9a66-6058498a4994" width="250" height="550"/>
 
-<img src="https://github.com/user-attachments/assets/e890f0e7-aade-458e-afb4-31f1e0b4824b" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/96c10a05-708c-4756-b71f-ac292bbcd521" width="250" height="550"/>
 
 </p>
 ---
