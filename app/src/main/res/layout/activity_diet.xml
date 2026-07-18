@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3E0">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <!-- BACK BUTTON -->
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back_arrow"
+            android:background="@android:color/transparent" />
+
+        <!-- DIET IMAGE -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_diet"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diet &amp; Calorie Tracker"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center" />
+
+        <!-- SUBTITLE -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Track calories &amp; watch diet videos"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- GOAL -->
+        <TextView
+            android:id="@+id/tvGoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Goal: 2000 kcal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:layout_marginBottom="10dp" />
+
+        <!-- PROGRESS -->
+        <ProgressBar
+            android:id="@+id/calorieProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:max="2000"
+            android:progress="0"
+            android:layout_marginBottom="15dp" />
+
+        <!-- CALORIES TEXT -->
+        <TextView
+            android:id="@+id/tvCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 kcal consumed"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+
+        <!-- INPUT -->
+        <EditText
+            android:id="@+id/etCalories"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter calories (e.g. 250)"
+            android:inputType="number"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- ADD BUTTON -->
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Add Calories"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF" />
+
+        <!-- RESET BUTTON -->
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Reset"
+            android:backgroundTint="#F44336"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp" />
+
+        <!-- VIDEOS -->
+        <Button
+            android:id="@+id/btnDietVideo"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Watch Healthy Diet Video"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/btnCalorieVideo"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Watch Calorie Guide Video"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp" />
+
+        <!-- SAVE -->
+        <Button
+            android:id="@+id/btnSaveCalories"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Save Calories"
+            android:textStyle="bold"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"/>
+
+        <!-- HISTORY -->
+        <Button
+            android:id="@+id/btnCaloriesHistory"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Calories History"
+            android:textStyle="bold"
+            android:backgroundTint="#673AB7"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"/>
+
+        <!-- MOTIVATION -->
+        <TextView
+            android:id="@+id/tvMotivation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start your healthy journey 🌱"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>

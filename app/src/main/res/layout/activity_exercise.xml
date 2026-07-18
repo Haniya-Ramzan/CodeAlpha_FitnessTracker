@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- BACK BUTTON -->
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back_arrow"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- TOP IMAGE -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_exercise"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exercise Tracker"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"/>
+
+        <!-- SUBTITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complete your daily fitness goals"
+            android:textSize="15sp"
+            android:textColor="#666666"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+        <!-- PROGRESS BAR -->
+        <ProgressBar
+            android:id="@+id/exerciseProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:max="5"
+            android:progress="0"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- STATUS -->
+        <TextView
+            android:id="@+id/tvWorkoutStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 / 5 Exercises Completed"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- PUSHUPS -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/video_home"/>
+
+            <CheckBox
+                android:id="@+id/checkPushups"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20 Pushups"
+                android:textSize="18sp"
+                android:layout_marginStart="15dp"/>
+        </LinearLayout>
+
+        <!-- RUNNING -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/video_cardio"/>
+
+            <CheckBox
+                android:id="@+id/checkRunning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 Min Running"
+                android:textSize="18sp"
+                android:layout_marginStart="15dp"/>
+        </LinearLayout>
+
+        <!-- YOGA -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/video_yoga"/>
+
+            <CheckBox
+                android:id="@+id/checkYoga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 Min Yoga"
+                android:textSize="18sp"
+                android:layout_marginStart="15dp"/>
+        </LinearLayout>
+
+        <!-- CYCLING -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/video_fullbody"/>
+
+            <CheckBox
+                android:id="@+id/checkCycling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cycling Exercise"
+                android:textSize="18sp"
+                android:layout_marginStart="15dp"/>
+        </LinearLayout>
+
+        <!-- STRETCHING -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/video_abs"/>
+
+            <CheckBox
+                android:id="@+id/checkStretching"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stretching Workout"
+                android:textSize="18sp"
+                android:layout_marginStart="15dp"/>
+        </LinearLayout>
+
+        <!-- COMPLETE BUTTON -->
+        <Button
+            android:id="@+id/btnComplete"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Update Progress"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- RESET BUTTON -->
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Reset"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#F44336"
+            android:layout_marginBottom="25dp"/>
+
+        <!-- MOTIVATION -->
+        <TextView
+            android:id="@+id/tvMotivation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stay strong and stay healthy!"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="20dp"/>
+        <Button
+            android:id="@+id/btnVideos"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Watch Workout Videos"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#3F51B5"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

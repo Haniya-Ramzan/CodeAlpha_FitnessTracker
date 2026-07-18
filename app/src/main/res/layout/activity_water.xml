@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <!-- BACK BUTTON -->
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back_arrow"
+            android:background="@android:color/transparent"
+            android:layout_gravity="start"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- ICON -->
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/ic_water"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water Tracker"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="5dp"/>
+
+        <!-- SUBTITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stay hydrated every day"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- WATER COUNT -->
+        <TextView
+            android:id="@+id/tvWaterCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 / 2000 ml"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- PROGRESS BAR -->
+        <ProgressBar
+            android:id="@+id/waterProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:max="2000"
+            android:progress="0"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- ADD WATER BUTTON -->
+        <Button
+            android:id="@+id/btnAdd250"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Add 250 ml"
+            android:textStyle="bold"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="7dp"/>
+
+        <!-- ADD WATER BUTTON -->
+        <Button
+            android:id="@+id/btnAdd500"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Add 500 ml"
+            android:textStyle="bold"
+            android:backgroundTint="#1E88E5"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- CHECKBOX TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Water Goal (8 Glasses)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- CHECKBOX CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:layout_marginBottom="10dp">
+
+            <CheckBox
+                android:id="@+id/cb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Glass 1"
+                android:textSize="16sp"/>
+
+            <CheckBox
+                android:id="@+id/cb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Glass 2"
+                android:textSize="16sp"/>
+
+            <CheckBox
+                android:id="@+id/cb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Glass 3"
+                android:textSize="16sp"/>
+
+            <CheckBox
+                android:id="@+id/cb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Glass 4"
+                android:textSize="16sp"/>
+
+            <CheckBox
+                android:id="@+id/cb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Glass 5"
+                android:textSize="16sp"/>
+
+            <CheckBox
+                android:id="@+id/cb6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Glass 6"
+                android:textSize="16sp"/>
+
+            <CheckBox
+                android:id="@+id/cb7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Glass 7"
+                android:textSize="16sp"/>
+
+            <CheckBox
+                android:id="@+id/cb8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Glass 8"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <!-- RESET BUTTON -->
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Reset"
+            android:textStyle="bold"
+            android:backgroundTint="#D32F2F"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="2dp"/>
+        <Button
+            android:id="@+id/btnSaveWater"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Save Water Intake"
+            android:textStyle="bold"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnWaterHistory"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Water History"
+            android:textStyle="bold"
+            android:backgroundTint="#673AB7"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- BOTTOM SPACE -->
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
