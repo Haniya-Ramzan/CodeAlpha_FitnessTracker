@@ -166,25 +166,33 @@ git clone https://github.com/Haniya-Ramzan/CodeAlpha_FitnessTracker.git
 
 ## 📷 Screenshots
 
-> Add screenshots of the following screens:
+> <h2>📱 Application Screenshots</h2>
 
-<img width="1440" height="3040" alt="image" src="https://github.com/user-attachments/assets/cc28e97a-f0e6-4f7a-97a6-24e819c2ce86" />
-<img width="369" height="739" alt="image" src="https://github.com/user-attachments/assets/3ac17885-3557-4120-a6b4-7a910afa7b0a" />
-<img width="387" height="763" alt="image" src="https://github.com/user-attachments/assets/363f8720-23f7-4531-afb9-ff047f47f399" />
-<img width="398" height="748" alt="image" src="https://github.com/user-attachments/assets/e4a2346a-651f-4e01-9e3f-071f5e34ad0d" />
-<img width="356" height="747" alt="image" src="https://github.com/user-attachments/assets/5e25a1e6-c5a0-485b-b4b6-28a8361867a9" />
-<img width="397" height="740" alt="image" src="https://github.com/user-attachments/assets/8498f804-730c-4703-b4c7-9ef21ece67aa" />
-<img width="427" height="756" alt="image" src="https://github.com/user-attachments/assets/ce334658-16d8-46cc-a45e-a471f2f55cd6" />
-<img width="1440" height="3040" alt="image" src="https://github.com/user-attachments/assets/6f46ab89-d906-4993-96ac-72144335e631" />
-<img width="1440" height="3040" alt="image" src="https://github.com/user-attachments/assets/f8da9804-3996-40ea-b1be-ae1d5017229c" />
-<img width="1440" height="3040" alt="image" src="https://github.com/user-attachments/assets/65604d73-0090-43a9-aac1-f66e19fa802b" />
-<img width="1440" height="3040" alt="image" src="https://github.com/user-attachments/assets/c8196ddf-e554-4f39-af21-2a1eeb44b816" />
-<img width="1440" height="3040" alt="image" src="https://github.com/user-attachments/assets/07029bf6-5780-4cc4-a3e9-5f3347fed385" />
-<img width="1440" height="3040" alt="image" src="https://github.com/user-attachments/assets/cc6527b2-9446-4967-b9f5-cc28dc3239ee" />
-<img width="1440" height="3040" alt="image" src="https://github.com/user-attachments/assets/655b8d78-91e9-4643-b7de-c7104e9867af" />
-<img width="1440" height="3040" alt="image" src="https://github.com/user-attachments/assets/2fc98900-7e0f-41f7-801c-7e7363f19571" />
-<img width="1440" height="3040" alt="image" src="https://github.com/user-attachments/assets/e890f0e7-aade-458e-afb4-31f1e0b4824b" />
+<p align="center">
 
+<img src="https://github.com/user-attachments/assets/cc28e97a-f0e6-4f7a-97a6-24e819c2ce86" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/3ac17885-3557-4120-a6b4-7a910afa7b0a" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/363f8720-23f7-4531-afb9-ff047f47f399" width="250" height="550"/>
+
+<img src="https://github.com/user-attachments/assets/e4a2346a-651f-4e01-9e3f-071f5e34ad0d" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/5e25a1e6-c5a0-485b-b4b6-28a8361867a9" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/8498f804-730c-4703-b4c7-9ef21ece67aa" width="250" height="550"/>
+
+<img src="https://github.com/user-attachments/assets/ce334658-16d8-46cc-a45e-a471f2f55cd6" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/6f46ab89-d906-4993-96ac-72144335e631" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/f8da9804-3996-40ea-b1be-ae1d5017229c" width="250" height="550"/>
+
+<img src="https://github.com/user-attachments/assets/65604d73-0090-43a9-aac1-f66e19fa802b" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/c8196ddf-e554-4f39-af21-2a1eeb44b816" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/07029bf6-5780-4cc4-a3e9-5f3347fed385" width="250" height="550"/>
+
+<img src="https://github.com/user-attachments/assets/cc6527b2-9446-4967-b9f5-cc28dc3239ee" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/655b8d78-91e9-4643-b7de-c7104e9867af" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/2fc98900-7e0f-41f7-801c-7e7363f19571" width="250" height="550"/>
+
+<img src="https://github.com/user-attachments/assets/e890f0e7-aade-458e-afb4-31f1e0b4824b" width="250" height="550"/>
+
+</p>
 ---
 
 ## 🎯 Learning Outcomes
