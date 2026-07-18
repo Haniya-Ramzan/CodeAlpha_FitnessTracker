@@ -170,7 +170,8 @@ git clone https://github.com/Haniya-Ramzan/CodeAlpha_FitnessTracker.git
 
 <p align="center">
 
-<img src="https://github.com/user-attachments/assets/cc28e97a-f0e6-4f7a-97a6-24e819c2ce86" width="250" height="550"/>
+<img width="380" height="746" alt="image" src="https://github.com/user-attachments/assets/dd58b019-bb26-4374-b85e-0958f9b610dc" />
+
 <img src="https://github.com/user-attachments/assets/3ac17885-3557-4120-a6b4-7a910afa7b0a" width="250" height="550"/>
 <img src="https://github.com/user-attachments/assets/363f8720-23f7-4531-afb9-ff047f47f399" width="250" height="550"/>
 
